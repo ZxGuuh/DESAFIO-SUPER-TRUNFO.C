@@ -27,4 +27,18 @@ int main() {
     carta1.pib = 286.94;
     carta1.numeroPontosTuristicos = 12;
 
+    //exibindo a carta
+    printf("Carta 1:\n");
+    printf("Estado: %s\n", carta1.estado);
+    printf("Código: %s\n", carta1.codigo);
+    printf("Nome da Cidade: %s\n", carta1.nomeCidade);
+    printf("População: %d\n", carta1.area);
+    printf("Área: %.2f km²\n", carta1.area);
+    printf("PIB: R$ %2f bilhões\n", carta1.pib);
+    printf("Número de Pontos Turísticos: %d\n", carta1.numeroPontosTuristicos);
+
+    //pausa para windows
+    system("pause");
+
+    return 0;
 }
